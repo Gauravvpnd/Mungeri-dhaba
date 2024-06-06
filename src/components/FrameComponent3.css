@@ -1,0 +1,187 @@
+.dbbf532c137277d4b28fe399a8dbc1-icon1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.frame-child9 {
+  position: absolute;
+  top: 775px;
+  left: calc(50% - 41.7px);
+  width: 83.4px;
+  height: 20px;
+  z-index: 1;
+}
+.dbbf532c137277d4b28fe399a8dbc1-group {
+  height: 816px;
+  width: 1440px;
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: bf4bc93;
+  max-width: 100%;
+}
+.dba8bd89e1d55d00d9a5b55f477516-icon1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.frame-child10 {
+  position: absolute;
+  top: 774px;
+  left: 689.2px;
+  width: 79.4px;
+  height: 18px;
+}
+.dba8bd89e1d55d00d9a5b55f477516-group {
+  height: 816px;
+  width: 1440px;
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: bf4bc93;
+  max-width: 100%;
+}
+.f32e395464f6884ee9a158ba372763-icon1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.frame-child11 {
+  position: absolute;
+  top: 783px;
+  left: 680.3px;
+  width: 79.3px;
+  height: 18px;
+  z-index: 1;
+}
+.f32e395464f6884ee9a158ba372763-group {
+  height: 816px;
+  width: 1440px;
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: bf4bc93;
+  max-width: 100%;
+}
+.component-71 {
+  width: 1440px;
+  overflow-x: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.chicken-biryani1,
+.chicken-kassa1,
+.special-thali1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  font-weight: 400;
+  font-family: inherit;
+  flex-shrink: 0;
+  debug_commit: bf4bc93;
+}
+.chicken-kassa1,
+.special-thali1 {
+  height: 52px;
+  width: 214px;
+  display: inline-block;
+}
+.special-thali1 {
+  width: 199px;
+}
+.component-31,
+.our-specialites1 {
+  margin: 0 !important;
+  position: absolute;
+}
+.component-31 {
+  width: 232px;
+  height: 48px;
+  bottom: 321px;
+  left: 70px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-23xl);
+  z-index: 1;
+}
+.our-specialites1 {
+  width: 763.3px;
+  height: 201px;
+  top: 294px;
+  left: 51px;
+  font-size: var(--font-size-41xl);
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  font-weight: 400;
+  font-family: var(--font-agraham);
+  color: var(--color-bisque);
+  display: inline-block;
+  z-index: 2;
+}
+.component-7-parent,
+.desktop-2-inner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.component-7-parent {
+  flex: 1;
+  flex-direction: column;
+  position: relative;
+}
+.desktop-2-inner {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 var(--padding-35xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-white);
+  font-family: var(--font-bebas-neue);
+}
+@media screen and (max-width: 1125px) {
+  .desktop-2-inner {
+    padding-bottom: var(--padding-16xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 800px) {
+  .chicken-biryani1,
+  .chicken-kassa1,
+  .special-thali1 {
+    font-size: var(--font-size-13xl);
+  }
+  .our-specialites1 {
+    font-size: var(--font-size-29xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .chicken-biryani1,
+  .chicken-kassa1,
+  .special-thali1 {
+    font-size: var(--font-size-5xl);
+  }
+  .our-specialites1 {
+    font-size: var(--font-size-17xl);
+  }
+  .desktop-2-inner {
+    padding-bottom: var(--padding-4xl);
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Google+Sans:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=LEMON+MILK:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rethink+Sans:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gloria+Rocha:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Agraham:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Goudy+Bookletter+1911:wght@400&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-raleway: Raleway;
+  --font-google-sans: "Google Sans";
+  --font-goudy-bookletter-1911: "Goudy Bookletter 1911";
+  --font-gloria-rocha: "Gloria Rocha";
+  --font-agraham: Agraham;
+  --font-bebas-neue: "Bebas Neue";
+  --font-rethink-sans: "Rethink Sans";
+  --font-lemon-milk: "LEMON MILK";
+
+  /* font sizes */
+  --font-size-6xl: 25px;
+  --font-size-3xl: 22px;
+  --font-size-9xl: 28px;
+  --font-size-13xl: 32px;
+  --font-size-31xl: 50px;
+  --font-size-71xl: 90px;
+  --font-size-26xl: 45px;
+  --font-size-8xl: 27px;
+  --font-size-51xl: 70px;
+  --font-size-37xl: 56px;
+  --font-size-23xl: 42px;
+  --font-size-xl: 20px;
+  --font-size-11xl: 30px;
+  --font-size-5xl: 24px;
+  --font-size-lg: 18px;
+  --font-size-41xl: 60px;
+  --font-size-29xl: 48px;
+  --font-size-17xl: 36px;
+  --font-size-21xl: 40px;
+  --font-size-61xl: 80px;
+  --font-size-16xl: 35px;
+  --font-size-2xl: 21px;
+  --font-size-181xl: 200px;
+  --font-size-46xl: 65px;
+  --font-size-33xl: 52px;
+  --font-size-20xl: 39px;
+  --font-size-138xl: 157px;
+  --font-size-44xl: 63px;
+
+  /* Colors */
+  --color-gray: #482426;
+  --color-black: #000;
+  --color-white: #fff;
+  --color-darkolivegreen-100: #7d6b32;
+  --color-darkolivegreen-200: rgba(81, 69, 31, 0.7);
+  --color-bisque: #ead4b9;
+  --color-burlywood: #ffc692;
+  --color-red-100: #e3010f;
+  --color-red-200: rgba(255, 0, 0, 0.87);
+  --color-forestgreen: #40a629;
+  --color-whitesmoke: #f4f4f4;
+
+  /* Gaps */
+  --gap-7xl: 26px;
+  --gap-39xl: 58px;
+  --gap-10xl: 29px;
+  --gap-22xl: 41px;
+  --gap-xl: 20px;
+  --gap-76xl: 95px;
+  --gap-28xl: 47px;
+  --gap-5xl: 24px;
+  --gap-13xl: 32px;
+  --gap-23xl: 42px;
+  --gap-190xl-5: 209.5px;
+  --gap-86xl: 105px;
+  --gap-33xl: 52px;
+  --gap-285xl: 304px;
+  --gap-133xl: 152px;
+  --gap-170xl: 189px;
+  --gap-75xl: 94px;
+  --gap-9xl: 28px;
+  --gap-15xl: 34px;
+  --gap-mid: 17px;
+  --gap-142xl: 161px;
+  --gap-61xl: 80px;
+  --gap-21xl: 40px;
+  --gap-49xl: 68px;
+  --gap-45xl: 64px;
+  --gap-145xl: 164px;
+  --gap-63xl: 82px;
+
+  /* Paddings */
+  --padding-2xl: 21px;
+  --padding-xl: 20px;
+  --padding-112xl: 131px;
+  --padding-46xl: 65px;
+  --padding-smi: 13px;
+  --padding-49xl: 68px;
+  --padding-xs: 12px;
+  --padding-51xl: 70px;
+  --padding-119xl: 138px;
+  --padding-50xl: 69px;
+  --padding-15xl: 34px;
+  --padding-4xs: 9px;
+  --padding-62xl: 81px;
+  --padding-61xl: 80px;
+  --padding-11xs: 2px;
+  --padding-12xs: 1px;
+  --padding-7xs: 6px;
+  --padding-9xl: 28px;
+  --padding-8xl: 27px;
+  --padding-35xl: 54px;
+  --padding-16xl: 35px;
+  --padding-4xl: 23px;
+  --padding-139xl: 158px;
+  --padding-53xl: 72px;
+  --padding-60xl: 79px;
+  --padding-12xl: 31px;
+  --padding-20xl: 39px;
+  --padding-5xs: 8px;
+  --padding-57xl: 76px;
+  --padding-19xl: 38px;
+  --padding-43xl: 62px;
+  --padding-24xl: 43px;
+  --padding-42xl: 61px;
+  --padding-22xl: 41px;
+  --padding-7xl: 26px;
+  --padding-mini-4: 14.4px;
+  --padding-14xl: 33px;
+  --padding-smi-6: 12.6px;
+  --padding-30xl: 49px;
+  --padding-sm-4: 13.4px;
+  --padding-31xl: 50px;
+  --padding-10xl: 29px;
+  --padding-1508xl: 1527px;
+
+  /* Border radiuses */
+  --br-mini: 15px;
+  --br-21xl: 40px;
+}

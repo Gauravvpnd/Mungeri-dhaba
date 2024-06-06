@@ -1,0 +1,67 @@
+.delights {
+  height: 100px;
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.05em;
+  display: inline-block;
+}
+.delights-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-9xl) 0 var(--padding-8xl);
+}
+.food-cake-undefined-glyph {
+  height: 77px;
+  width: 77px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.food-cake-undefined-glyph-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+.sensational-flavors-and {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-6xl);
+  letter-spacing: 0.05em;
+  text-transform: lowercase;
+  font-family: var(--font-google-sans);
+  color: var(--color-darkolivegreen-200);
+  text-align: center;
+}
+.frame-parent20 {
+  width: 245px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-4xs);
+  box-sizing: border-box;
+  gap: var(--gap-13xl);
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-darkolivegreen-100);
+  font-family: var(--font-agraham);
+}
+@media screen and (max-width: 800px) {
+  .delights {
+    font-size: var(--font-size-5xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .delights {
+    font-size: var(--font-size-lg);
+  }
+  .sensational-flavors-and {
+    font-size: var(--font-size-xl);
+  }
+}
