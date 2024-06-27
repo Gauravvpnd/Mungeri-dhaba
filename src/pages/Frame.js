@@ -4,6 +4,7 @@ import FrameComponent3 from "../components/FrameComponent3";
 import FrameComponent1 from "../components/FrameComponent1";
 import FrameComponent from "../components/FrameComponent";
 import "./Frame.css";
+import FrameComponent6 from "../components/FrameComponent6";
 
 const Frame = () => {
   return (
@@ -21,6 +22,8 @@ const Frame = () => {
           <FrameComponent1 />
         </section>
         <FrameComponent />
+        <FrameComponent6 />
+
       </main>
     </div>
   );

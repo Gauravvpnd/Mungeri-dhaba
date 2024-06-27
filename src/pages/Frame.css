@@ -3,6 +3,7 @@
   overflow: hidden;
   max-width: 100%;
 }
+
 .offer-section-2 {
   width: 100%;
   height: 789px;
@@ -14,6 +15,7 @@
   flex-shrink: 0;
   object-fit: cover;
 }
+
 .desktop-2 {
   align-self: stretch;
   background-color: var(--color-white);
@@ -23,6 +25,7 @@
   position: relative;
   gap: var(--gap-22xl);
 }
+
 .desktop-2,
 .desktop-5,
 .desktop-5-parent {
@@ -30,14 +33,16 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
+
 .desktop-5 {
-  width: 1440px;
+  width: 100%;  /* Changed from 1440px to 100% */
+  max-width: 100%;
   flex-direction: column;
   padding: 0;
   box-sizing: border-box;
   min-height: 7073px;
-  max-width: 100%;
 }
+
 .desktop-5-parent {
   position: relative;
   width: 100%;

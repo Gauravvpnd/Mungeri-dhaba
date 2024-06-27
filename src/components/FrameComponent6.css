@@ -1,0 +1,164 @@
+
+body, html, #root {
+    margin: 0;
+    padding: 0;
+    font-family: 'Google Sans', sans-serif;
+  }
+  
+  .footer-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    background-color: #f6edd7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .footer-background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* background-image: url('/public/assets/rectangle-83.png'); */
+    background-image: url('/public/assets/Rectangle\ 83.png');
+
+    background-size: cover;
+    z-index: -1;
+  }
+  
+  .footer-content {
+    width: 80%;
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .question {
+    font-size: 2vw; /* Responsive font size */
+    font-weight: 400;
+    letter-spacing: 1.75px;
+    color: #51451fb2;
+    text-align: center;
+    line-height: 1.3em;
+    margin: 20px 0;
+  }
+  
+  .search-bar {
+    width: 90%;
+    max-width: 352px;
+    height: 55px;
+    position: relative;
+    background-image: url('/public/assets/Rectangle\ 44.png');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .search-icon {
+    position: absolute;
+    left: 10px;
+    width: 27px;
+    height: 27px;
+    background-image: url('/public/assets/User_cicrle.png');
+    background-size: cover;
+  }
+  
+  .search-input {
+    width: 85%;
+    padding-left: 40px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #51451f33;
+    border: none;
+    outline: none;
+    background: transparent;
+  }
+  
+  .logo-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .logo-text {
+    font-family: 'Samarkan', sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    line-height: 61.3px;
+    color: #000;
+    margin-left: 10px;
+  }
+  
+  .address {
+    font-size: 1.5vw; /* Responsive font size */
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #51451fb2;
+    text-align: center;
+    line-height: 1.3em;
+  }
+  
+  .website {
+    font-size: 1.5vw; /* Responsive font size */
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #51451fb2;
+    text-align: center;
+    line-height: 1.3em;
+    margin: 20px 0;
+  }
+  
+  .contact-info {
+    font-size: 1.8vw; /* Responsive font size */
+    font-weight: 400;
+    letter-spacing: 1.25px;
+    color: #51451fb2;
+    text-align: center;
+    line-height: 1.3em;
+    margin: 20px 0;
+  }
+  
+  .social-icons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .social-icons {
+    width: 313px;
+    height: 28px;
+    /* background-image: url('./assets/group-158.'); */
+    background-image: url('/public/assets/Group\ 158.png');
+    background-size: cover;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+    .question,
+    .address,
+    .website,
+    .contact-info {
+      font-size: 3vw; /* Adjust fonts for mobile */
+    }
+  
+    .logo-text {
+      font-size: 6vw; /* Adjust for mobile */
+    }
+  }
