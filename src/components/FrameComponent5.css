@@ -1,4 +1,4 @@
-.bb7947c94b51760e467704378fe8-2-icon1 {
+/* .bb7947c94b51760e467704378fe8-2-icon1 {
   position: absolute;
   width: 100%;
   top: 0;
@@ -329,5 +329,124 @@
   }
   .frame-parent11 {
     gap: var(--gap-xl);
+  }
+} */
+
+.container {
+  /* background-image: url('./assets/group-160.svg'); */
+  background-image: url('../pages/Component\ 6.png');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo {
+  height: 65px;
+}
+
+.menu-icon {
+  height: 31.5px;
+}
+
+.content {
+  max-width: 960px;
+  margin: auto;
+}
+
+.text-group {
+  margin-bottom: 20px;
+}
+
+.title {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 10vw;
+  letter-spacing: 10px;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.subtitle {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 8vw;
+  letter-spacing: 7.85px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: #e3010f;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin: 40px 0;
+}
+
+.menu-button, 
+.table-button {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  padding: 14.4px 35.18px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.menu-button {
+  background-color: #482426;
+  color: white;
+}
+
+.table-button {
+  background-color: #e0e0e0;
+  color: #482426;
+}
+
+.description {
+  font-family: 'Google Sans', sans-serif;
+  font-size: 4vw;
+  line-height: 1.4;
+  letter-spacing: -0.9px;
+  max-width: 960px;
+}
+
+@media (max-width: 768px) {
+  .buttons {
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .title {
+    font-size: 15vw;
+  }
+  
+  .subtitle {
+    font-size: 12vw;
+  }
+
+  .description {
+    font-size: 5vw;
+  }
+
+  .menu-button, 
+  .table-button {
+    padding: 12px 30px;
+    font-size: 16px;
   }
 }

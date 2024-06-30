@@ -1,7 +1,7 @@
 import FrameComponent5 from "../components/FrameComponent5";
 import FrameComponent4 from "../components/FrameComponent4";
 import FrameComponent3 from "../components/FrameComponent3";
-import FrameComponent1 from "../components/FrameComponent1";
+// import FrameComponent1 from "../components/FrameComponent1";
 import FrameComponent from "../components/FrameComponent";
 import "./Frame.css";
 import FrameComponent6 from "../components/FrameComponent6";
@@ -19,7 +19,7 @@ const Frame = () => {
           <FrameComponent5 />
           <FrameComponent4 />
           <FrameComponent3 />
-          <FrameComponent1 />
+          {/* <FrameComponent1 /> */}
         </section>
         <FrameComponent />
         <FrameComponent6 />
